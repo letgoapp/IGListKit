@@ -39,7 +39,6 @@ typedef void (^IGListUpdaterCompletion)(BOOL finished);
  Feed implementations must act as the data source for an `IGListAdapter` in order to drive the objects and section
  controllers in a collection view.
  */
-IGLK_SUBCLASSING_RESTRICTED
 NS_SWIFT_NAME(ListAdapter)
 @interface IGListAdapter : NSObject
 
